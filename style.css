@@ -1,0 +1,216 @@
+
+/* common styles sections starts here */
+
+.heading::after{
+  content: '';
+  background: red;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+
+.card{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* common styles sections ends here */
+
+/* navbar styles starts here */
+span{
+  color: red;
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    transition: .5s ease;
+}
+
+.nav-link:hover{
+    color: red;
+}
+/* navbarstyles ends here */
+
+/* home section styles starts here */
+
+.home{
+   position: relative;
+   height: 100vh;
+   overflow: hidden;
+   background: url(files/6346166.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+ 
+
+/* home section styles ends here */
+
+
+
+
+
+/* about section styles starts here */
+
+
+.aboutimg{
+  mix-blend-mode: multiply;
+}
+
+
+
+/* about section styles ends here */
+
+
+
+
+
+
+/* destination section starts here */
+
+.Destinations .card img{
+  transition: .5s ease;
+}
+.Destinations .card img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+/* destination section ends here */
+
+
+
+/* Why us section starts here */
+
+.whyus{
+  background: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.6)) , url(files/pexels-sam-kolder-2387873\ \(1\).jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+/* why us section ends here */
+
+
+
+
+
+/* review section starts here */
+
+.review-row{
+  margin-top: 15px;
+}
+.review-col{
+ margin: 20px auto;
+}
+
+.profile{
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+  transition: .2s;
+}
+
+.profile:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user{
+  width: 120px;
+  height: 120px;
+  border-radius: 50% ;
+}
+
+/* review section ends here */
+
+
+
+/* explore section starts here */
+
+.explorebox{
+  background: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.6)) , url(files/pexels-fahad-hussain-3037435.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* explore section starts here */
+
+
+
+
+
+
+/* packages section starts here */
+
+
+.pacimg{
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+/* packages section ends here */
+
+/* contact-us section starts here */
+
+
+.contact-us{
+  padding: 40px;
+}
+
+
+/* contact-us section ends here */
+
+
+
+/* footer section starts */
+
+.footer{
+  padding: 30px;
+}
+
+.footer-icons i{
+
+  border: 0px solid black;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.footer-icons i:hover{
+  background-color:rgb(48, 136, 237);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
